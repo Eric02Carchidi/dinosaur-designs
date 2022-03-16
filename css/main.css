@@ -1,32 +1,40 @@
 html {
   box-sizing: border-box;
   background-color: #f3f1ed;
-  font-family: Georgia, serif;
+  font-family: "putua One", sans-serif;
   line-height: 1.5;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #fdf6e3;
 }
 
 img {
   width: 100%;
 }
 
-h1,h2 {
+h1, h2 {
   color: #5d8432;
   text-transform: uppercase;
+  font-family: "Putua One", sans-serif;
 }
 
 figcaption {
   font-size: .8rem;
-  font-style: italics;
+  font-style: italic;
   text-align: center;
 }
 
 nav {
   font-size: 1.125rem;
   font-weight: bold;
+  font-family: "Putua One", sans-serif;
 }
 
 nav ol {
@@ -41,4 +49,8 @@ nav a {
 nav a:hover {
   color: #b42885;
   text-decoration: underline;
+}
+
+.intro {
+  font-size: 1rem;
 }
